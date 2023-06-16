@@ -52,6 +52,10 @@ public class Frame extends JFrame {
 	private Polynomial result;
 	private Polynomial copiedPoly;
 	int selectionNum;
+
+	public static void main(String[] args) {
+		JFrame frm = new Frame();
+	}
 	
 	Frame() {
 		frm = new JFrame("Polynomial Calculator");
